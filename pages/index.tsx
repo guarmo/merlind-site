@@ -8,8 +8,8 @@ import { BsTelephone } from "react-icons/bs";
 
 const Home: NextPage = () => {
   return (
-    <div className="w-screen h-screen bg-gray-500 overflow-hidden">
-      <div
+    <div className="w-screen h-screen bg-gray-500 overflow-hidden pb-2">
+      <main
         style={{ height: "97%", width: "100%" }}
         className="flex flex-col md:flex-row w-full"
       >
@@ -58,18 +58,18 @@ const Home: NextPage = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div
-        style={{ height: "3%" }}
+      </main>
+      <footer
+        style={{ height: "4%" }}
         className="w-full flex flex-col sm:flex-row items-center justify-between text-white text-xs px-2"
       >
-        <div className="w-1/2 whitespace-nowrap">
+        <div className="w-full md:w-1/2 text-center md:text-left whitespace-nowrap">
           <h1>photo by Vivien Woßeng and Enno Schramm</h1>
         </div>
-        <div className="w-1/2 text-right md:text-center">
+        <div className="w-full md:w-1/2 text-center md:text-right md:w-1/2">
           <h1>©2022 Merlind Constanze Pohl</h1>
         </div>
-      </div>
+      </footer>
     </div>
   );
 };
