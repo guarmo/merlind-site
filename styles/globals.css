@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main-img {
-  background: url(/merlind-main.jpg) no-repeat left center;
+  background: url(/merlind-main-min.jpg) no-repeat left center;
   background-size: cover;
   min-height: 100%;
 }
