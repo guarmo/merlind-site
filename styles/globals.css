@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-img {
+  background: url(/merlind-main.jpg) no-repeat left center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-img {
+    min-height: 50%;
+  }
+}
