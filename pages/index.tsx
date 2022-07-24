@@ -38,6 +38,7 @@ const Home: NextPage = () => {
               className="flex items-center gap-4 cursor-pointer"
               href="https://www.youtube.com/channel/UCyU5BuXDUDz9-vJKbdqN61w"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="text-xl">
                 <AiOutlineYoutube />
@@ -50,6 +51,7 @@ const Home: NextPage = () => {
               className="flex items-center gap-4 cursor-pointer"
               href="https://www.instagram.com/merlindconstanze"
               target="_blank"
+              rel="noreferrer"
             >
               <div className="text-xl">
                 <AiOutlineInstagram />
