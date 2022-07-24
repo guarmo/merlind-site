@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       </div>
       <div
         style={{ height: "3%" }}
-        className="w-full flex items-center justify-between text-white text-xs px-2"
+        className="w-full flex flex-col sm:flex-row items-center justify-between text-white text-xs px-2"
       >
         <div className="w-1/2 whitespace-nowrap">
           <h1>photo by Vivien Woßeng and Enno Schramm</h1>
