@@ -38,12 +38,12 @@ const Home: NextPage = () => {
       >
         <div className="main-img w-full md:w-1/2 self-center"></div>
         <div className="self-center flex flex-col items-center justify-center w-full md:w-1/2 h-4/5">
-          <div className="text-center mb-20 text-white text-xl xl:text-3xl font-semibold">
+          <div className="text-center mb-4 sm:mb-20 text-white sm:text-xl xl:text-3xl font-semibold">
             <h1 className="font-montserrat">MERLIND CONSTANZE POHL</h1>
             <h1 className="tracking-widest my-5">— mezzosoprano —</h1>
             <h1 className="font-montserrat">.THEATRE. OPERA. PERFORMANCE.</h1>
           </div>
-          <div className="flex flex-col gap-6 text-gray-800 font-semibold text-center lg:text-lg">
+          <div className="flex flex-col gap-2 sm:gap-6 text-gray-800 font-semibold text-center lg:text-lg">
             {/* Phone */}
             <div className="flex items-center gap-4 font-light">
               <BsTelephone />
