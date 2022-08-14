@@ -64,7 +64,10 @@ const Home: NextPage = () => {
               <h1>merlindconstanze</h1>
             </a>
           </div>
-          <h1 className="w-full text-center md:text-right md:w-1/2 text-white text-xs absolute bottom-0 right-0 pb-2 sm:pr-2">
+          <h1 className="text-white text-xs absolute bottom-0 pb-2 left-1/2 transform -translate-x-1/2 sm:hidden">
+            ©2022 Merlind Constanze Pohl
+          </h1>
+          <h1 className="text-white text-xs absolute bottom-0 pb-2 right-0 pr-2 hidden sm:block">
             ©2022 Merlind Constanze Pohl
           </h1>
         </section>
