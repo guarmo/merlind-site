@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://merlindconstanze.de/
+
+# Sitemaps
+Sitemap: http://merlindconstanze.de/sitemap.xml
