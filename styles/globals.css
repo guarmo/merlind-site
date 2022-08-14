@@ -7,18 +7,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.main-img {
-  background: url(/main-img.jpg) no-repeat left center;
-  background-size: cover;
-  min-height: 100%;
-}
-
 .font-montserrat {
   font-family: 'Montserrat', sans-serif;
 }
 
 .font-open-sans {
   font-family: 'Open Sans', sans-serif;
+}
+
+.main-img {
+  background: url(/main-img.jpg) no-repeat left center;
+  background-size: cover;
+  min-height: 100%;
 }
 
 @media screen and (max-width: 768px) {
