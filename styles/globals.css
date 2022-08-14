@@ -8,7 +8,7 @@ body {
 }
 
 .main-img {
-  background: url(/merlind-main-min.jpg) no-repeat left center;
+  background: url(/main-img.jpg) no-repeat left center;
   background-size: cover;
   min-height: 100%;
 }
