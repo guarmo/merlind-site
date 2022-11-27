@@ -48,8 +48,6 @@ const Meta = () => {
         content="Merlind Constanze Pohl - mezzosoprano"
       />
       <meta name="twitter:creator" content="Armando Guarino" />
-      <link rel="icon" type="image/png" href="/static/images/favicon.ico" />
-      <link rel="apple-touch-icon" href="/static/images/favicon.ico" />
       <meta property="og:image" content="/static/images/main-img.jpg" />
       <meta name="twitter:image" content="/static/images/main-img.jpg" />
       <link rel="canonical" href="http://merlindconstanze.de/" />
