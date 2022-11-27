@@ -1,6 +1,5 @@
-import type { NextPage } from "next";
+import Link from "next/link";
 import Meta from "./meta";
-
 import {
   AiOutlineMail,
   AiOutlineInstagram,
@@ -8,13 +7,13 @@ import {
 } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className="w-screen h-screen bg-gray-500 sm:overflow-hidden">
       <Meta />
       <main className="flex flex-col md:flex-row w-full h-full">
         <section className="main-img w-full md:w-1/2 h-1/2 self-center relative">
-          <h1 className="whitespace-nowrap absolute bottom-0 left-0 text-white pl-2 pb-2 text-xs hidden sm:block">
+          <h1 className="whitespace-nowrap absolute bottom-0 left-0 text-white pl-2 pb-2 text-xs hidden md:block">
             photo by Vivien Woßeng and Enno Schramm
           </h1>
         </section>
@@ -27,19 +26,25 @@ const Home: NextPage = () => {
           </div>
           <div className="flex flex-col gap-2 md:gap-6 text-gray-800 font-semibold text-center text-sm lg:text-lg">
             {/* Phone */}
-            <div className="flex items-center gap-4 font-light">
+            <Link
+              className="flex items-center gap-4 font-light"
+              href="tel:+4915756355868"
+            >
               <BsTelephone />
               <h1>+4915756355868</h1>
-            </div>
+            </Link>
 
             {/* Mail */}
-            <div className="flex items-center gap-4 font-light">
+            <Link
+              className="flex items-center gap-4 font-light"
+              href="mailto:merlind.pohl@web.de"
+            >
               <AiOutlineMail />
               <h1>merlind.pohl@web.de</h1>
-            </div>
+            </Link>
 
             {/* YT */}
-            <a
+            <Link
               className="flex items-center gap-4 cursor-pointer font-light"
               href="https://www.youtube.com/channel/UCyU5BuXDUDz9-vJKbdqN61w"
               target="_blank"
@@ -49,10 +54,10 @@ const Home: NextPage = () => {
                 <AiOutlineYoutube />
               </div>
               <h1>Merlind Pohl</h1>
-            </a>
+            </Link>
 
             {/* Insta */}
-            <a
+            <Link
               className="flex items-center gap-4 cursor-pointer font-light"
               href="https://www.instagram.com/merlindconstanze"
               target="_blank"
@@ -62,7 +67,7 @@ const Home: NextPage = () => {
                 <AiOutlineInstagram />
               </div>
               <h1>merlindconstanze</h1>
-            </a>
+            </Link>
           </div>
           <h1 className="text-white text-xs absolute bottom-0 pb-2 right-0 pr-2 hidden sm:block">
             ©2022 Merlind Constanze Pohl
